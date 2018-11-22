@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedParameter>
+    <Group name="目标地址"  value="12" Type="1" Offset="1">  
+ 
+    </Group>
+  
+	
+	<Group name="源地址" value="12" Type="1" Offset="1">    
+    </Group>
+	
+	<Group name="设备地址" value="12" Type="1" Offset="1">     
+    </Group>
+	
+    <Group name="电压变比">
+        <Parameter name="L1变比" value="22" Type="1" Offset="1">
+        </Parameter>
+        <Parameter name="L2变比" value="22" Type="1" Offset="1">
+        </Parameter>
+	    <Parameter name="L3变比" value="22" Type="1" Offset="1">
+        </Parameter>
+    </Group>
+	
+    <Group name="电流变比">
+	<Parameter name="L1变比" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L2变比" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L3变比" value="22" Type="1" Offset="1">
+	</Parameter>
+    </Group>
+	
+	<Group name="功率变比">
+	<Parameter name="L1变比" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L2变比" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L3变比" value="22" Type="1" Offset="1">
+	</Parameter>
+    </Group>
+	
+	<Group name="电压阈值" value="12" Type="1" Offset="1"> 
+    </Group>
+	
+	<Group name="电流阈值" value="12" Type="1" Offset="1">   
+    </Group>
+	
+	<Group name="功率阈值" value="12" Type="1" Offset="1">   	
+    </Group>
+	
+	<Group name="频率阈值" value="12" Type="1" Offset="1">  
+    </Group>
+	 
+	<Group name="电压死区值">
+	<Parameter name="L1">
+	</Parameter>
+	<Parameter name="L2" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L3" value="22" Type="1" Offset="1">
+	</Parameter>
+    </Group>
+	
+    <Group name="电流死区值">
+	<Parameter name="L1" value="22" Type="2" Offset="1">
+	</Parameter>
+	<Parameter name="L2" value="22" Type="3" Offset="1">
+	</Parameter>
+	<Parameter name="L3" value="22" Type="4" Offset="1">
+	</Parameter>
+    </Group>
+	
+	
+	<Group name="电压校验参数">
+	<Parameter name="L1" value="22" Type="5" Offset="1">
+	</Parameter>
+	<Parameter name="L2" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L3" value="22" Type="1" Offset="1"> 
+	</Parameter>
+    </Group>
+	
+	<Group name="电流校验参数">
+	<Parameter name="L1" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L2" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="L3" value="22" Type="1" Offset="1">
+	</Parameter>
+	<Parameter name="N1" value="22" Type="1" Offset="1">
+	</Parameter>
+    </Group>
+	
+</ManagedParameter>

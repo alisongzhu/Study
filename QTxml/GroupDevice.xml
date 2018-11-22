@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedDevice>
+	<Group name="IVS-Group1">
+    <Device name="IVS-Test1" ip="192.168.2.36">
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.59</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.72</RtspUrl>
+        </Channel>
+    </Device>
+    <Device name="IVS-Test2" ip="192.168.2.10">
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.72</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.59</RtspUrl>
+        </Channel>
+    </Device>
+  </Group>
+	<Group name="IVS-Group2">
+    <Device name="IVS-Test3" ip="192.168.2.15">>
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.59</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.72</RtspUrl>
+        </Channel>
+    </Device>
+    <Device name="IVS-Test4" ip="192.168.2.20">
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.59</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.73</RtspUrl>
+        </Channel>
+    </Device>
+  </Group>
+  <Group name="IVS-Group3">
+    <Device name="IVS-Test5" ip="192.168.2.19">
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.59</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.75</RtspUrl>
+        </Channel>
+    </Device>
+    <Device name="IVS-Test6" ip="192.168.2.25">
+        <Channel name="通道1">
+        	<RtspUrl>http://192.168.2.73</RtspUrl>
+        </Channel>
+        <Channel name="通道2">
+        	<RtspUrl>http://192.168.2.72</RtspUrl>
+        </Channel>
+    </Device>
+  </Group>
+</ManagedDevice>
